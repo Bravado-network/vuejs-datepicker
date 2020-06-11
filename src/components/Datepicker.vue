@@ -68,6 +68,7 @@
       :translation="translation"
       :isRtl="isRtl"
       :use-utc="useUtc"
+      :full-month-name="fullMonthName"
       @selectMonth="selectMonth"
       @showYearCalendar="showYearCalendar"
       @changedYear="setPageDate">
